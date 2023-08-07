@@ -3,7 +3,7 @@ import axios from 'axios';
 import io from 'socket.io-client';
 import Timer from '../Timer/Timer';
 import Modal from '../Modal/Modal';
-
+import './gameplay.scss';
 const socket = io(); // Replace with your Socket.IO server URL
 
 function Gameplay({ roomId }) {

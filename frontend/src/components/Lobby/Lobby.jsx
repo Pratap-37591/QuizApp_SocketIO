@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import io from 'socket.io-client';
+import './lobby.scss';
 
 const socket = io(); // Replace with your Socket.IO server URL
 
-function Lobby() {
+function 
+Lobby() {
     const [rooms, setRooms] = useState([]);
     const [username, setUsername] = useState('');
 
